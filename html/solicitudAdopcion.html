@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Solicitudes</title>
+  <link rel="stylesheet" href="../css/solicitudAdopcion.css">
+</head>
+<body>
+
+ <nav class="navbar">
+
+  <div class="nav-left">
+    <img src="../imagenes/logo.svg" class="logo">
+    <h2>PawFriends</h2>
+  </div>
+   <h1 class="titulo">Solicitudes de adopción</h1>
+  <div class="nav-right">
+    <button class="btn-back" onclick="irSolicitudes()">←</button>
+  </div>
+
+    </nav>
+
+<div class="tabla-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Solicitante</th>
+        <th>Perro</th>
+        <th>Estado</th>
+        <th>Fecha de solicitud</th>
+      </tr>
+    </thead>
+    <tbody id="tablaBody"></tbody>
+  </table>
+</div>
+
+<script src="../JavaScript/solicitudAdopcion.js"></script>
+</body>
+</html>

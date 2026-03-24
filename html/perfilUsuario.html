@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Perfil</title>
+  <link rel="stylesheet" href="../css/perfilUsuario.css">
+</head>
+<body>
+<header class="header">
+  <img src="../imagenes/logo.svg" class="logo">
+  <h2>Mi perfil</h2>
+  <button class="btn-back" onclick="irHome()">←</button>
+</header>
+
+<div class="container">
+
+  <div class="perfil-card">
+
+    <div class="avatar-box">
+      <img src="../imagenes/user.jpg" id="avatar">
+
+      <input type="file" id="fileInput" accept="image/*">
+      <button onclick="cambiarFoto()">Cambiar foto</button>
+    </div>
+
+    <div class="info">
+      <p><strong>Nombre Completo</strong></p>
+      <p>Teléfono</p>
+      <p>Dirección</p>
+      <p>Correo Electrónico</p>
+    </div>
+
+  </div>
+  <div class="motivo-card">
+    <h3>
+      ¿Por qué quieres adoptar?
+      <span onclick="editar()">✏</span>
+    </h3>
+    <p id="descripcion">Escribe tu motivo aquí...</p>
+  </div>
+
+</div>
+
+<div class="galeria">
+  <h3>Fotos de los animales adoptados</h3>
+
+  <div class="imagenes">
+    <img src="../imagenes/perro1.jpg">
+    <img src="../imagenes/perro2.jpg">
+    <img src="../imagenes/perro3.jpg">
+  </div>
+</div>
+
+<script src="../JavaScript/perfilUsuario.js"></script>
+</body>
+</html>

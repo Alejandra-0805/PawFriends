@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #9FF7EC;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTENEDOR */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* TARJETA */
+.form-card {
+  background: #e0e0e0;
+  padding: 40px;
+  width: 350px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* LOGO */
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+/* TEXTO */
+.subtitle {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* INPUTS */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  border: none;
+  background: #7BC7A3;
+  color: white;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+/* BOTÓN */
+button {
+  margin-top: 10px;
+  padding: 12px 30px;
+  border-radius: 25px;
+  border: none;
+  background: #7BC7A3;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #4FA37E;
+}
+
+/* IMAGEN */
+.image-section img {
+  width: 450px;
+  border-radius: 25px;
+}

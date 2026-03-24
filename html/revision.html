@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Revisión</title>
+  <link rel="stylesheet" href="../css/revision.css">
+</head>
+<body>
+
+  <nav class="navbar">
+
+  <div class="nav-left">
+    <img src="../imagenes/logo.svg" class="logo">
+    <h2>PawFriends</h2>
+  </div>
+
+  <div class="nav-right">
+    <button class="btn-back" onclick="irSolicitudes()">←</button>
+  </div>
+
+    </nav>
+
+    <div class="container">
+
+  <div class="card">
+
+    <img id="imgPerro">
+
+    <h3 id="nombrePerro"></h3>
+    <p><strong>Solicitante:</strong> <span id="nombrePersona"></span></p>
+
+    <hr>
+
+    <h4>Datos del formulario</h4>
+
+    <p>Edad: 25</p>
+    <p>Teléfono: 9610000000</p>
+    <p>Casa con patio: Sí</p>
+    <p>Experiencia con mascotas: Sí</p>
+
+    <div class="botones">
+      <button class="aceptar" onclick="resolver('aceptada')">Aceptar</button>
+      <button class="rechazar" onclick="resolver('rechazada')">Rechazar</button>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="../JavaScript/revision.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

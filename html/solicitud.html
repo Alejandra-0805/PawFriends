@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Solicitud de adopción</title>
+  <link rel="stylesheet" href="../css/solicitud.css">
+</head>
+<body>
+
+<header class="header">
+  <img src="../imagenes/logo.svg">
+  <h2>🐾 Solicitud de adopción</h2>
+  <button class="btn-back" onclick="irHome()">←</button>
+</header>
+
+<form class="formulario" onsubmit="enviarFormulario(event)">
+
+  <div class="card">
+    <h3>👤 Datos personales</h3>
+    <input type="text" placeholder="Nombre" id="nombre">
+    <input type="number" placeholder="Edad" id="edad">
+    <input type="text" placeholder="Teléfono" id="telefono">
+    <input type="email" placeholder="Correo" id="correo">
+  </div>
+
+  <div class="card">
+    <h3>🏠 Sobre tu hogar</h3>
+    <input type="text" placeholder="Dirección completa" id="direccion">
+
+    <select id="tipoCasa">
+      <option value="">Casa o departamento</option>
+      <option>Casa</option>
+      <option>Departamento</option>
+    </select>
+
+    <select id="patio">
+      <option value="">¿Cuenta con patio?</option>
+      <option>Sí</option>
+      <option>No</option>
+    </select>
+
+    <select id="cerca">
+      <option value="">¿Está cercado?</option>
+      <option>Sí</option>
+      <option>No</option>
+    </select>
+  </div>
+
+  <div class="card">
+    <h3>🐾 Experiencia con mascotas</h3>
+
+    <select id="experiencia">
+      <option value="">¿Has tenido mascotas antes?</option>
+      <option>Sí</option>
+      <option>No</option>
+    </select>
+
+    <select id="otrasMascotas">
+      <option value="">¿Tienes otras mascotas?</option>
+      <option>Sí</option>
+      <option>No</option>
+    </select>
+
+    <input type="text" placeholder="¿Cuánto tiempo estará sola la mascota?" id="tiempo">
+
+    <input type="text" placeholder="¿Dónde dormirá la mascota?" id="dormir">
+  </div>
+
+  <div class="card">
+    <h3>❤️ Compromiso</h3>
+
+    <input type="text" placeholder="¿Por qué quieres adoptar?" id="motivo">
+
+    <select id="veterinario">
+      <option value="">¿Puedes cubrir gastos veterinarios?</option>
+      <option>Sí</option>
+      <option>No</option>
+    </select>
+
+    <select id="familia">
+      <option value="">¿Todos están de acuerdo?</option>
+      <option>Sí</option>
+      <option>No</option>
+    </select>
+
+    <select id="seguimiento">
+      <option value="">¿Aceptas seguimiento post-adopción?</option>
+      <option>Sí</option>
+      <option>No</option>
+    </select>
+  </div>
+
+  <button type="submit">Enviar formulario</button>
+
+</form>
+
+<script src="../JavaScript/solicitud.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

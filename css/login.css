@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #9FF7EC;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.login-box {
+  display: flex;
+  width: 900px; 
+  height: 500px;  
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.form-section {
+  width: 50%;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px auto;
+  object-fit: contain;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 15px;
+  background-color: #7BC7A3;
+  outline: none;
+}
+
+button {
+  background-color: #7BC7A3;
+  border: none;
+  padding: 12px 60px; /* 👈 menos ancho */
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  width: auto;        /* 👈 importante */
+  align-self: center; /* 👈 lo centra */
+}
+button:hover {
+  background-color: #4FA37E;
+}
+
+.register {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.logo-section {
+  width: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4FA37E;
+}
+
+.logo {
+  font-size: 80px;
+  fill: #4FA37E;
+}
+
+h2 {
+  margin-top: 10px;
+}

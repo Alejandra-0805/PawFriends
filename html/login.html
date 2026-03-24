@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PawFriends Login</title>
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="login-box">
+   
+    <div class="form-section">
+      <img src="../imagenes/usuario.png" alt="Usuario" class="icon">
+
+      <label>CORREO ELECTRONICO:</label>
+      <input type="email" id="email">
+
+      <label>CONTRASEÑA:</label>
+      <input type="password" id="password">
+
+      <button onclick="login()">Iniciar Sesión</button>
+
+      <p class="register" onclick="irRegistro()">Registrarse</p>
+    </div>
+
+    <div class="logo-section">
+      <img src="../imagenes/logo.svg" alt="PawFriends Logo" class="logo">
+      <h2>PawFriends</h2>
+    </div>
+
+  </div>
+</div>
+
+<script src="../JavaScript/login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.navbar {
+  background: #7BC7A3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 70px;
+}
+
+.nav-left h2 {
+  font-size: 18px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.btn-back {
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.btn-back:hover {
+  background: #4FA37E;
+  color: white;
+}
+
+.titulo {
+  margin: 30px 60px 10px;
+  font-size: 22px;
+}
+
+.tabla-container {
+  width: 90%;
+  margin: 0 auto 40px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #eaeaea;
+}
+
+th {
+  text-align: left;
+  padding: 15px;
+  font-size: 16px;
+}
+
+td {
+  padding: 12px 15px;
+  border-top: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f9f9f9;
+}
+
+.perro {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.perro img {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.estado {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #4FA37E;
+}
+
+.aceptada {
+  background: #4FA37E;
+  color: white;
+}

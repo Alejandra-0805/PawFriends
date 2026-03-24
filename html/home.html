@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PawFriends</title>
+  <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="../imagenes/logo.svg">
+    <span>PawFriends</span>
+  </div>
+
+  <nav>
+    <a href="#" onclick="irHome()">Inicio</a>
+    <a href="#" onclick="irsolicitud()">Solicitud de adopción</a>
+    <a href="#" onclick="irContactanos()">Contactanos</a>
+  </nav>
+
+  <img src="../imagenes/usuario.png" class="user" onclick="irPerfil()">
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>“El amor no puedes comprarlo, pero sí rescatarlo”</h1>
+    <p>Dale una segunda oportunidad a un amigo peludo</p>
+    <button onclick="irAdopcion()">Ver mascotas en adopción</button>
+  </div>
+
+  <div class="hero-img">
+    <img src="../imagenes/home.webp">
+  </div>
+</section>
+
+<section class="cards" id="cardsContainer"></section>
+
+<section class="proceso">
+  <div class="proceso-text">
+    <h2>Como funciona la adopción</h2>
+
+    <div class="steps">
+      <div class="step">🔍<p>Busca una mascota</p></div>
+      <div class="step">📄<p>Llena la solicitud</p></div>
+      <div class="step">🕒<p>Proceso de revisión</p></div>
+      <div class="step">❤️<p>Conoce a tu nuevo amigo</p></div>
+    </div>
+  </div>
+
+  <img src="../imagenes/registro.jpg" class="proceso-img">
+</section>
+
+<script src="../JavaScript/home.js"></script>
+</body>
+</html>b

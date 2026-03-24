@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f4f6f5;
+}
+
+.header {
+  background: #7BC7A3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 18px;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  width: 50px;
+}
+
+.btn-back {
+  position: absolute;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px auto;
+  width: 85%;
+}
+
+.perfil-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.avatar-box img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.avatar-box input {
+  display: none; 
+}
+
+.avatar-box button {
+  background: #7BC7A3;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.avatar-box button:hover {
+  background: #4FA37E;
+  color: white;
+}
+
+.info {
+  margin-top: 20px;
+  text-align: left;
+  line-height: 2;
+}
+
+.motivo-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.motivo-card h3 {
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.motivo-card span {
+  cursor: pointer;
+}
+
+.galeria {
+  width: 85%;
+  margin: 30px auto;
+}
+
+.galeria h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.imagenes {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.imagenes img {
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}

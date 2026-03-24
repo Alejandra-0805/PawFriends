@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #e6e6e6;
+}
+
+.navbar {
+  background: #7BC7A3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 60px;
+}
+
+.titulo {
+  font-size: 20px;
+  text-align: center;
+}
+
+.user {
+  width: 30px;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+.hero img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin-bottom: 30px;
+}
+
+.subtitulo {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.card {
+  background: #cfcfcf;
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 22px;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.check {
+  background: #4FA37E;
+  color: white;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
