@@ -60,7 +60,16 @@ function verPerfil(index) {
 function irsolicitud() {
   window.location.href = "../html/solicitud.html";
 }
+function irContactanos() {
+  const correo = "alejandraclemente48@gmail.com";
+  const asunto = "Contacto PawFriends";
+  const mensaje = "Hola, quiero información sobre adopciones.";
 
+  const url = `https://mail.google.com/mail/?view=cm&fs=1&to=${correo}&su=${encodeURIComponent(asunto)}&body=${encodeURIComponent(mensaje)}`;
+
+  window.open(url, "_blank");
+  window.location.href = "../html/home.html";
+}
 function irAdopcion() {
   window.location.href = "../html/adopcion.html";
 }
